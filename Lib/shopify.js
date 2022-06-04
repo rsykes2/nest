@@ -4,7 +4,7 @@ const storefrontAccessToken = 'a188e970d30b2bdab77e16e6c3f56343'
 
 
 async function ShopifyData(query) {
-  const URL = `https://${domain}/api/2021-07/graphql.json`
+  const URL = `https://${domain}/api/2022-04/graphql.json`
 
   const options = {
     endpoint: URL,
