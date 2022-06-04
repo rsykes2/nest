@@ -1,5 +1,7 @@
-const domain = process.env.SHOPIFY_STORE_DOMAIN
-const storefrontAccessToken = process.env.SHOPIFY_STOREFRONT_ACCESSTOKEN
+
+const domain = 'skullsduggery.myshopify.com'
+const storefrontAccessToken = 'a188e970d30b2bdab77e16e6c3f56343'
+
 
 async function ShopifyData(query) {
   const URL = `https://${domain}/api/2021-07/graphql.json`
