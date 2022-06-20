@@ -4,12 +4,12 @@ import Hero from '../Components/Hero'
 import Footer from '../Components/Footer'
 import Layout from '../Components/Layout'
 
-export default function Home({ products }) {
+export default function Home({products}) {
 
   return (
     <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <Hero></Hero>
+      <Hero></Hero>    
         <Footer></Footer>
         <h1 className="text-2xl font-extrabold  mb-6  text-center , text-teal-600"  >
           Our Products

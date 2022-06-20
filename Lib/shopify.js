@@ -1,7 +1,6 @@
 
-const domain = 'skullsduggery.myshopify.com'
-const storefrontAccessToken = 'a188e970d30b2bdab77e16e6c3f56343'
-
+    const domain ='skullsduggery.myshopify.com'
+    const storefrontAccessToken ='a188e970d30b2bdab77e16e6c3f56343'
 
 async function ShopifyData(query) {
   const URL = `https://${domain}/api/2022-04/graphql.json`
